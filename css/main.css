@@ -1,0 +1,138 @@
+/*************************
+         GENERAL
+*************************/
+a{
+  text-decoration: none;
+}
+
+a:visited{
+  color: #f0810f;
+}
+
+ul{
+  list-style: none;
+}
+
+footer{
+  text-align: center;
+}
+
+body{
+  background: #063852;
+}
+
+/*************************
+         HEADER
+*************************/
+
+#banner{
+  width: 100%;
+  background: #011a27;
+  height: 100px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.bannerChild{
+  color: #f0810f;
+  margin-left: 15px;
+  font-family: 'Arvo', serif;
+}
+
+.bannerChild h1{
+  font-size: 1.75em;
+  line-height: 30px;
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
+
+.bannerChild h2{
+  font-size: 1.25em;
+  margin-bottom: 30px;
+}
+
+/*************************
+        NAVIGATION
+*************************/
+
+.navbar{
+  font-size: 16px;
+  color: #f0810f;
+  background: #011a27;
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  position: relative;
+  font-family: 'Arvo', serif;
+}
+
+.navbar ul{
+  margin: 0;
+  padding: 1em;
+}
+
+.navbar li{
+  display: inline-block;
+}
+
+.navbar a{
+  margin: 0 3.5vw 0;
+  color: #f0810f;
+}
+
+.navbar a:visited{
+  color: #f0810f;
+}
+
+.navbar a:hover{
+  color: #e6df44;
+}
+
+/*************************
+        CONTAINERS
+*************************/
+.container{
+  width: 90%;
+  height: 200px;
+  margin: 5% auto;
+  background: #011a27;
+  color: #f0810f;
+  border-radius: 25px;
+  overflow: hidden;
+  text-align: center;
+  font-family: 'Arvo', serif;
+}
+
+.cheader{
+  width: 100%;
+  line-height: 50px;
+  font-size: 24px;
+  height: 50px;
+  background: #011a47;
+}
+
+/*************************
+        HOMEPAGE
+*************************/
+#sign{
+  float:left;
+  width: 50%;
+  font-size: 14px;
+}
+
+#log{
+  float: right;
+  width: 50%;
+  font-size: 14px;
+}
+
+#accountBox{
+  height: 300px;
+}
+
+#sign, #log{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
